@@ -1,3 +1,6 @@
+Having the issue while Publishing at sitecore At CM
+
+
 Job started: Publish to 'web'|#Exception: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> Sitecore.Framework.Data.Blobs.Abstractions.BlobProviderException: No supported provider for  is configured.
    at Sitecore.Framework.Data.Blobs.BlobStorage.GetBlobProvider[T](BlobIdentifier identifier)
    at Sitecore.Publishing.PublishHelper.CopyBlobField(Field sourceField, Item targetVersion)
